@@ -33,9 +33,12 @@
       "title": "Jirax",
       "properties": {
         "jirax.openWith": {
-          "type":"string",
+          "type": "string",
           "default": "browser",
-          "enum": ["sys", "browser"]
+          "enum": [
+            "sys",
+            "browser"
+          ]
         },
         "jirax.jiraConfigs": {
           "type": "object",
