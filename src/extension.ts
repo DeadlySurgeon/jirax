@@ -228,7 +228,7 @@ function registerAddJiraUrlCommand(context: vscode.ExtensionContext) {
         return;
       }
 
-      jiraConfigs[newUrl] = { project_identifiers: ["LAB"] };
+      jiraConfigs[newUrl] = { project_identifiers: [] };
       await config.update(
         "jirax.jiraConfigs",
         jiraConfigs,
